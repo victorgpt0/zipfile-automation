@@ -15,5 +15,5 @@ have the latest of each!
 ```python
 pip install pyinstaller
 
-```python
+```
 pyinstaller --onefile --noconsole --icon=image.ico zips.py
