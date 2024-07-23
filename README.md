@@ -13,7 +13,9 @@ have the latest of each!
 
 ## Installation
 ```python
+pip install watchdog
 pip install pyinstaller
-
 ```
+
+```python
 pyinstaller --onefile --noconsole --icon=image.ico zips.py
