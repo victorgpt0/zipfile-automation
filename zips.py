@@ -1,7 +1,5 @@
 import time
-import os
 from pathlib import Path
-import zipfile
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import subprocess

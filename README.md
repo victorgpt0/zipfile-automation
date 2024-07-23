@@ -4,6 +4,7 @@ Automates the windows experience when you want to unzip files as soon as they ar
 
 ## Table of Contents
 - Requirements
+- Installation
 
 ## Requirements:
 have the latest of each!
