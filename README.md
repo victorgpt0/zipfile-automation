@@ -5,6 +5,16 @@ Automates the windows experience when you want to unzip files as soon as they ar
 ## Table of Contents
 - Requirements
 
+## Disclaimer
+You might have to change some parts of the code to suite your device.
+root_dir is where your compressed archives are downloaded into.
+destination_dir is where you would want them.
+Note that the Drive Letter might be different in your device.
+Also check where your 7zip.exe is located in your device. Normally it is in:
+```
+C:\Program Files\7-zip\7z.exe
+```
+
 ## Requirements:
 have the latest of each!
 - Python
