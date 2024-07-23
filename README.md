@@ -2,6 +2,11 @@
 
 Automates the windows experience when you want to unzip files as soon as they are downloaded
 
-Requirements:
-  7zip.exe
-  Administrator rights
+##Table of Contents
+-Requirements
+
+##Requirements:
+have the latest of each!
+-Python
+-7zip.exe
+-Administrator rights
