@@ -12,10 +12,15 @@ have the latest of each!
 - Administrator rights
 
 ## Installation
+Python Libraries
 ```python
 pip install watchdog
 pip install pyinstaller
 ```
 
+If you want to run the script as an .exe file.
 ```python
-pyinstaller --onefile --noconsole --icon=image.ico zips.py
+pyinstaller --onefile --noconsole --icon=zipper.ico zips.py
+```
+
+If on Windows, you can use Task Scheduler to run the program every time you log in or startup your computer.
