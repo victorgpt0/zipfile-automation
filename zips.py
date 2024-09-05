@@ -10,7 +10,7 @@ destination_dir.mkdir(parents=True, exist_ok=True)
 
 class ZipHandler(FileSystemEventHandler):
     def on_created(self, event):
-        if not event.is_directory and event.src_path.endswith('.zip', '.rar', '.7z', '.tar', '.gz'):
+        if not event.is_directory and event.src_path.endswith(('.zip', '.rar', '.7z', '.tar', '.gz')):
             path = Path(event.src_path)
             time.sleep(1)
             self.extract_zip(path)
