@@ -7,6 +7,7 @@ import subprocess
 root_dir = Path("D:\\Compressed")
 destination_dir = Path("D:\\")
 destination_dir.mkdir(parents=True, exist_ok=True)
+seven_zip_path=r"C:\Program Files\7-zip\7zG.exe"
 
 class ZipHandler(FileSystemEventHandler):
     def on_created(self, event):
@@ -23,7 +24,6 @@ class ZipHandler(FileSystemEventHandler):
                 
                 final_path = destination_dir / path.stem
                 final_path.mkdir(parents=True, exist_ok=True)
-                seven_zip_path=r"C:\Program Files\7-zip\7z.exe"
                 cmd=[seven_zip_path, "x", str(path), f"-o{final_path}", "-y"]
                 process=subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
                 while True:
